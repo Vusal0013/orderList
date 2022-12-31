@@ -1,0 +1,9 @@
+@import url(error.css);
+.container-items ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.container-items{
+    width: 300px;
+}

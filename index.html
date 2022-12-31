@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Order List</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="errors-container"></div>
+            <form action="order-product">
+                <input type="text" list="product-list" name="product" id="product" placeholder="Product"/>
+                <input type="number" name="product-pics" id="product-pics" placeholder="00"/>
+                <input type="button" name="confrim-product" id="confrim-product" value="OK" />
+                <datalist id="product-list">
+                </datalist>
+            </form>
+            <button id="reset" type="reset">Reset</button>
+            <div class="container-items">
+
+            </div>
+            <button class="get-print-page">Confrim</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
